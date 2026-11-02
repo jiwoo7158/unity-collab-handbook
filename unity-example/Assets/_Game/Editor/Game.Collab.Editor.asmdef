@@ -1,0 +1,12 @@
+{
+  "name": "Game.Collab.Editor",
+  "rootNamespace": "Game.Collab.Editor",
+  "references": [
+    "Game.Collab.Integration",
+    "Game.Collab.UI"
+  ],
+  "autoReferenced": false,
+  "includePlatforms": [
+    "Editor"
+  ]
+}

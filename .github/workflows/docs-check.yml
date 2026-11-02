@@ -1,0 +1,30 @@
+name: Verify documentation
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'docs/**'
+      - 'scripts/**'
+      - 'requirements-docs.txt'
+      - '.github/workflows/docs-check.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'docs/**'
+      - 'scripts/**'
+      - 'requirements-docs.txt'
+      - 'unity-example/**'
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-docs.txt beautifulsoup4==4.14.3
+      - run: python scripts/build_site.py
+      - run: python scripts/validate_repo.py
+      - run: git diff --exit-code -- docs/

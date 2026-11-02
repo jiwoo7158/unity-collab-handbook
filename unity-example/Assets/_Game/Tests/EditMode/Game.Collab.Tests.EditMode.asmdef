@@ -1,0 +1,15 @@
+{
+  "name": "Game.Collab.Tests.EditMode",
+  "rootNamespace": "Game.Collab.Tests.EditMode",
+  "references": [
+    "Game.Collab.Contracts",
+    "Game.Collab.Gameplay"
+  ],
+  "autoReferenced": false,
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

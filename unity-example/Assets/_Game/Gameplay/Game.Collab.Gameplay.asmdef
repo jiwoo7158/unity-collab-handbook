@@ -1,0 +1,8 @@
+{
+  "name": "Game.Collab.Gameplay",
+  "rootNamespace": "Game.Collab.Gameplay",
+  "references": [
+    "Game.Collab.Contracts"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+.vscode/
+.idea/
+# Unity 프로젝트 루트에 넣을 때 제외해야 할 로컬 생성물
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+.vs/

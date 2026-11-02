@@ -1,0 +1,14 @@
+{
+  "name": "Game.Collab.Tests.PlayMode",
+  "rootNamespace": "Game.Collab.Tests.PlayMode",
+  "references": [
+    "Game.Collab.Contracts",
+    "Game.Collab.Gameplay",
+    "Game.Collab.UI",
+    "Game.Collab.Integration"
+  ],
+  "autoReferenced": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

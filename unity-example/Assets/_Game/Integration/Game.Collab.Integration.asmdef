@@ -1,0 +1,10 @@
+{
+  "name": "Game.Collab.Integration",
+  "rootNamespace": "Game.Collab.Integration",
+  "references": [
+    "Game.Collab.Contracts",
+    "Game.Collab.Gameplay",
+    "Game.Collab.UI"
+  ],
+  "autoReferenced": false
+}
